@@ -1,5 +1,7 @@
 # Files description
 
+The 2 R scripts were used to predict mitochondria localization of candidate genes in Zhang et al. manuscript.
+
 GSEA_Matrix.R creates a matrix by collapsing the Normalized Enrichment Scores of GSEA analysis. It requires 2 inputs :
     A list of gene IDs of interest (for example Mitochondrial genes)
     An RNA-seq normalized count matrix in which the analysis will be done.
